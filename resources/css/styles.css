@@ -156,7 +156,12 @@ li.active-link div::before {
   align-items: center;
   backface-visibility: hidden;
 }
-.facing b,
+
+.b{
+  color: #FF0000;
+  font-weight: bold;
+}
+
 .facing span {
   color: #bc2e2e;
   font-weight: 500;
