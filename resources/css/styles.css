@@ -157,7 +157,7 @@ li.active-link div::before {
   backface-visibility: hidden;
 }
 
-.b{
+b{
   color: #FF0000;
   font-weight: bold;
 }
