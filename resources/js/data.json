@@ -5,12 +5,12 @@
         "link": "https://google.com"
     },
     {
-        "prompt": "This is the second question",
+        "prompt": "This is the <b>second</b> question",
         "answer": "This is the answer.",
         "link": "https://facebook.com"
     },
     {
-        "prompt": "This is the question 3",
+        "prompt": "This is the question <b>3</b>",
         "answer": "This is the answer of question 3.",
         "link": "https://facebook.com"
     }
