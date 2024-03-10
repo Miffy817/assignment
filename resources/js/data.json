@@ -1,16 +1,16 @@
 [
     {
-        "prompt": "Test question <span>1234</span>. Tell <b>me</b> something.",
+        "prompt": "Test question <span>1234</span>. Tell <span class='redb'>me</span> something.",
         "answer": "This is the answer.",
         "link": "https://google.com"
     },
     {
-        "prompt": "This is the <b>second</b> question",
+        "prompt": "This is the <span class='redb'>second</span> question",
         "answer": "This is the answer.",
         "link": "https://facebook.com"
     },
     {
-        "prompt": "This is the question <b>3</b>",
+        "prompt": "This is the question <span class='redb'>3</span>",
         "answer": "This is the answer of question 3.",
         "link": "https://facebook.com"
     }
