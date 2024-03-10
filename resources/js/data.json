@@ -1,16 +1,17 @@
 [
     {
-		"prompt": "Test question <span>1234</span>. Tell <b>me</b> something.",
-		"answer": "This is the answer.",
-		"link": "https://google.com"
-	},
+        "prompt": "Test question <span>1234</span>. Tell <b>me</b> something.",
+        "answer": "This is the answer.",
+        "link": "https://google.com"
+    },
     {
-		"prompt": "This is the second question",
-		"answer": "This is the answer.",
-		"link": "https://facebook.com"
-	},{
-		"prompt": "This is the question 3",
-		"answer": "This is the answer of question 3.",
-		"link": "https://facebook.com"
-	}
+        "prompt": "This is the second question",
+        "answer": "This is the answer.",
+        "link": "https://facebook.com"
+    },
+    {
+        "prompt": "This is the question 3",
+        "answer": "This is the answer of question 3.",
+        "link": "https://facebook.com"
+    }
 ]
