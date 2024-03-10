@@ -157,8 +157,8 @@ li.active-link div::before {
   backface-visibility: hidden;
 }
 
-.redb{
-  color: #FF0000;
+span.blue{
+  color: #0000FF;
   font-weight: bold;
 }
 
