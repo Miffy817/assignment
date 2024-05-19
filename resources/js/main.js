@@ -13,7 +13,6 @@ let flipped = false;
 
 // Block display until the page can be rendered prettily
 flashcards.style.display = "none";
-
 // Fetch data from JSON file
 fetch(datapoints)
   .then(blob => {
@@ -41,6 +40,7 @@ fetch(datapoints)
 
 // Build the index of prompts
 function buildIndex() {
+  
   const list = document.createElement("ol");
   for (const i of prompts.sort()) {
     const item = document.createElement("li");
@@ -91,17 +91,19 @@ function buildCard(index) {
   let note = prompts[index];
   let question_number = index + 1;
   front.innerHTML = `
-  <h1 class='card_number'>Q.${question_number}</h1>
+  <h1 class='card_number'>${question_number}.</h1>
   <div class='line'><p class='prompt'>${note.prompt}</p></div>
-  <div class='line'><audio controls><source src='resources/audio/${prefix}.mp3' type='audio/mpeg'></audio><br/></div>
-  <div class='line'><img src='resources/img/${prefix}.png' width="500" height="500"></img></div>`;
+  `;
   back.innerHTML = `
-  <h1 class='card_number'>Q.${question_number}</h1>
+  <h1 class='card_number'>${question_number}.</h1>
   <div class='line'><p class='promptback'>${note.prompt}</p></div>
   <p class='answer'>${note.answer}</p>
-  <p class='reference'><a href="${note.link}" target="_blank">reference</a></p>
-  <div class='line'>${Buttonwrap(prefix + '_good', '<span class="emoji_button">👌</span>')} ← <b>${Counter('counter_good', prefix + '_good')}</b></div>
-  <div class='line'>${Buttonwrap(prefix + '_bad', '<span class="emoji_button">😡</span>')} ← <b>${Counter('counter_bad', prefix + '_bad')}</b></div>
+  <h1>lets learn the word appear above:<span style='color:red'>${note.word}</span></h1>
+  <div class='line'><img src='resources/img/${prefix}.png' width="250" height="250"></img></div>
+  <div class='line'>pronounce:<audio controls><source src='resources/audio/${prefix}.mp3' type='audio/mpeg'></audio><br/></div>
+  <p class='reference'><a href="${note.link}" target="_blank">cambridge dictionary</a></p>
+  <div class='line'>i have learn it before →${Buttonwrap(prefix + '_good', '<span class="emoji_button">🤭</span>')} ← <b>${Counter('counter_good', prefix + '_good')}</b></div>
+  <div class='line'>i just learn it →${Buttonwrap(prefix + '_bad', '<span class="emoji_button">😬</span>')} ← <b>${Counter('counter_bad', prefix + '_bad')}</b></div>
   `;
   count.innerHTML = `<p>${question_number} / ${prompts.length}</p>`;
   buttonwraps = document.querySelectorAll(`[id^="${prefix}"]`);

@@ -1,22 +1,26 @@
 [
     {
-        "prompt": "what is this <span style='color:blue'>color<span>",
-        "answer": "answer:<span style='color:blue'>blue<span>",
-        "link": "https://www.google.com/search?q=blue&rlz=1C5CHFA_enHK1049HK1092&oq=blue&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIQCAEQLhivARjHARixAxiABDIQCAIQLhjHARixAxjRAxiABDIKCAMQLhixAxiABDIKCAQQLhixAxiABDIKCAUQLhixAxiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABNIBBzc0NmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8 width='10' height='10'"
+        "prompt": "You decided to go to a <span style='color:green'>park</span> instead of staying indoors <img src='https://i.pinimg.com/564x/50/14/32/5014323462d877bbc7c5a55615efe892.jpg' width='150' height='150'>",
+        "answer": "When you arrived, something magical happened. The clouds changed into colorful shapes, like <span style='color:green'>fluffy</span> animals and yummy treats.     ",
+        "link": "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fluffy",
+        "word":"fluffy"
     },
     {
-        "prompt": "please tell me the color of the image<img src='https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png' width='100' height='100'>",
-        "answer": "<span>red<span>.",
-        "link": "https://www.google.com/search?sca_esv=ce60ff1de9910f37&sca_upv=1&rlz=1C5CHFA_enHK1049HK1092&sxsrf=ACQVn08fRBeHOIqZ_nm4_D4rbAg0zUaS0A:1710106408016&q=red&tbm=isch&source=lnms&sa=X&ved=2ahUKEwiIgOnn0uqEAxVVt1YBHQx_BHwQ0pQJegQIDBAB&biw=1440&bih=718&dpr=2"
+        "prompt": "You decided to stay at <span style='color:blue'>home</span> and have a cozy day together.<img src='https://png.pngtree.com/png-vector/20221108/ourmid/pngtree-cartoon-house-illustration-png-image_6434928.png' width='150' height='150'>",
+        "answer": "played board games, built forts with <span style='color:blue'>blankets</span>, and had a picnic in the living room.As you looked out the window, they noticed the clouds changing shapes, forming funny animals and familiar objects.....",
+        "link": "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/blanket?q=blankets"
+        ,"word":"blankets"
     },
     {
-        "prompt": "please tell me the color of the butterfly<img src='https://t3.ftcdn.net/jpg/05/22/66/12/360_F_522661292_IGRkZ8YUzpsq9uUZWDRF7XBncPMAgzr3.jpg' width='100' heigt='100'>",
-        "answer": "<span style='color:purple'>purple<span>",
-        "link": "https://en.wikipedia.org/wiki/Purple"
+        "prompt": "You and your friends opted for a change of scenery and headed towards the bustling <span style='color:purple'>city center</span>. <img src='https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/de/86/46/lion-dance-at-fa-yuen.jpg?w=1200&h=-1&s=1' width='150' heigt='150'>",
+        "answer": " As you walked through the streets, you noticed an enchanting street fair taking place. The air was filled with the enticing <span style='color:purple'>aroma</span> of various cuisines and the sound of laughter and music. Intrigued, you joined the festivities and found yourself immersed in a world of vibrant colors and lively performances.",
+        "link": "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/aroma"
+        ,"word":"aroma"
     },
 	{
-        "prompt": "please tell me the background color of the video <iframe width='200' height='200' src='https://www.youtube.com/embed/sW10W0Wcwpw?si=zslQafQZIKghfgS0' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
-        "answer": "<span style='color:yellow'>yellow<span>",
-        "link": "https://www.youtube.com/watch?v=sW10W0Wcwpw"
+        "prompt": "you and your friends decided to venture out to the nearby <span style='color:yellow'>beach</SPAN>. <iframe width='200' height='200' src='https://www.youtube.com/embed/xu9y67LAoXg?si=D_i6yawgZ984WRo0 title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>",
+        "answer": "As you made your way through the winding coastal path, a sense of tranquility enveloped you. The beach came into view, its shoreline covered in a mystical mist, creating an <span style='color:yellow'>ethereal</span> atmosphere.",
+        "link": "https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ethereal"
+        ,"word":"ethereal"
     }
 ]

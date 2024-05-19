@@ -68,8 +68,11 @@ footer p {
 }
 
 /* Sections */
+#header {
+  font-size: 1.5rem;
+}
 #index {  
-  padding-top: 160px; /* a bit hacky but not worth making it more complicated */
+  padding-top: 100px; /* a bit hacky but not worth making it more complicated */
   font-size: 0.85rem;
 }
 
@@ -89,6 +92,7 @@ footer p {
   width: -webkit-fill-available;
   width: -moz-available;
   max-width: 1200px;
+  min-width: 750px;
 }
 
 h1.card_number {
